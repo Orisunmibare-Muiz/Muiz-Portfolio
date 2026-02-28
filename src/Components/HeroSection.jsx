@@ -1,0 +1,35 @@
+import React from 'react'
+import Hero from "../../public/Images/Hero.jpg"
+import Hero1 from "../../public/Images/Hero1.jpg"
+import Hero4 from "../../public/Images/Hero4.jpg"
+import Hero5 from "../../public/Images/Hero5.jpg"
+
+export default function HeroSection() {
+    return (
+        <>
+            <section className="min-h-screen bg-hero md:bg-[url('../../public/Images/Hero5.jpg')] md:bg-center bg-no-repeat bg-cover text-white flex items-center px-6 md:px-20">
+                <div className="max-w-4xl space-y-6">
+                    <h1 className="text-4xl md:text-8xl font-bold leading-tight">
+                        Innovative{" "} <br />
+                        <span className="text-red-600">Frontend</span>{" "} <br />
+                        Developer
+                    </h1>
+
+                    <p className="text-white text-lg">
+                        I design and engineer scalable, data-driven interfaces that help
+                        startups and businesses convert users into customers.
+                    </p>
+
+                    <div className="flex gap-4">
+                        <button className="bg-primary px-6 py-3 rounded-md font-semibold hover:bg-blue-700 transition">
+                            View My Work
+                        </button>
+                        <button className="border border-accent text-accent px-6 py-3 rounded-md hover:bg-accent hover:text-white transition">
+                            Let’s Work Together
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </>
+    )
+}
