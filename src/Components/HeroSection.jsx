@@ -7,7 +7,7 @@ import Hero5 from "../../public/Images/Hero5.jpg"
 export default function HeroSection() {
     return (
         <>
-            <section className="min-h-screen bg-hero md:bg-[url('../../public/Images/Hero5.jpg')] md:bg-center bg-no-repeat bg-cover text-white flex items-center px-6 md:px-20">
+            <section className="min-h-screen bg-hero md:bg-[url('../../public/Images/Hero1.jpg')] md:bg-center bg-no-repeat bg-cover text-white flex items-center px-6 md:px-20">
                 <div className="max-w-4xl space-y-6">
                     <h1 className="text-4xl md:text-8xl font-bold leading-tight">
                         Innovative{" "} <br />

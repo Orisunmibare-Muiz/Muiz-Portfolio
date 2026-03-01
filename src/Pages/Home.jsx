@@ -5,10 +5,10 @@ import About from '../Components/About'
 
 export default function Home() {
     return (
-        <>
-           <Nav />
+        <div className="scroll-smooth">
+            <Nav />
             <HeroSection />
             <About />
-        </>
+        </div>
     )
 }

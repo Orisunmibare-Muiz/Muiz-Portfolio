@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import { useState } from 'react';
 
 export default function Nav() {
@@ -21,7 +22,32 @@ export default function Nav() {
                         <Link to="/" className="hover:text-white transition cursor-pointer">Home</Link>
                         <Link to="/" className="hover:text-white transition cursor-pointer">Case Studies</Link>
                         <Link to="/" className="hover:text-primary transition cursor-pointer">Skills</Link>
-                        <Link to="#about" className="hover:text-white transition cursor-pointer">About</Link>
+                        <HashLink
+                            to="#about"
+                            scroll={el => {
+                                const y = el.getBoundingClientRect().top + window.pageYOffset;
+                                const start = window.pageYOffset;
+                                const duration = 500; // 0.5 seconds
+                                let startTime = null;
+
+                                function animateScroll(currentTime) {
+                                    if (!startTime) startTime = currentTime;
+                                    const timeElapsed = currentTime - startTime;
+                                    const progress = Math.min(timeElapsed / duration, 1);
+
+                                    window.scrollTo(0, start + (y - start) * progress);
+
+                                    if (progress < 1) {
+                                        requestAnimationFrame(animateScroll);
+                                    }
+                                }
+
+                                requestAnimationFrame(animateScroll);
+                            }}
+                        >
+                            About
+                        </HashLink>
+
                         <Link to="/" className="hover:text-white transition cursor-pointer">Contact</Link>
                     </ul>
 
