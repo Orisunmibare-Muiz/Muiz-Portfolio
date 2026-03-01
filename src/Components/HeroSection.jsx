@@ -1,13 +1,17 @@
 import React from 'react'
-import Hero from "../../public/Images/Hero.jpg"
-import Hero1 from "../../public/Images/Hero1.jpg"
-import Hero4 from "../../public/Images/Hero4.jpg"
-import Hero5 from "../../public/Images/Hero5.jpg"
+import Hero from "/Images/Hero.jpg"
+import Hero1 from "/Images/Hero1.jpg"
+import Hero4 from "/Images/Hero4.jpg"
+import Hero5 from "/Images/Hero5.jpg"
 
 export default function HeroSection() {
     return (
         <>
-            <section className="min-h-screen bg-hero md:bg-[url('../../public/Images/Hero1.jpg')] md:bg-center bg-no-repeat bg-cover text-white flex items-center px-6 md:px-20">
+            <section className="min-h-screen bg-hero md:bg-center bg-no-repeat bg-cover text-white flex items-center px-6 md:px-20 md:bg-none" style={{
+                backgroundImage: `url(${Hero1})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+            }}>
                 <div className="max-w-4xl space-y-6">
                     <h1 className="text-4xl md:text-8xl font-bold leading-tight">
                         Innovative{" "} <br />
