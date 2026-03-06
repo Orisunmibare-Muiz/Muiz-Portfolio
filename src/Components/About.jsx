@@ -61,7 +61,7 @@ export default function About() {
     return (
         <>
             {/* // pt-20 gives it that nice breathing room at the top we talked about earlier */}
-            <section className="bg-[#ffffff] text-gray-900 py-20 px-6 md:px-12 lg:px-24">
+            <section smooth id='about' className="bg-[#ffffff] text-gray-900 py-20 px-6 md:px-12 lg:px-24">
                 <div className="max-w-7xl mx-auto">
 
                     {/* Main Heading */}
@@ -128,10 +128,10 @@ export default function About() {
 
                         {/* Social Icons using react-icons */}
                         <div className="flex gap-6 mt-8">
-                            <a href="#" className="text-gray-400 hover:text-gray-900 transition-colors text-2xl"><FaGithub /></a>
-                            <a href="#" className="text-gray-400 hover:text-blue-700 transition-colors text-2xl"><FaLinkedin /></a>
-                            <a href="#" className="text-gray-400 hover:text-red-500 transition-colors text-2xl"><FaEnvelope /></a>
-                            <a href="#" className="text-gray-400 hover:text-green-500 transition-colors text-2xl"><FaWhatsapp /></a>
+                            <a href="https://github.com/Orisunmibare-Muiz" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-900 transition-colors text-2xl"><FaGithub /></a>
+                            <a href="https://linkedin.com/in/muiz-orisunmibare-b397892a8" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-700 transition-colors text-2xl"><FaLinkedin /></a>
+                            <a href="mailto:orismuiz2003@gmail.com" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors text-2xl"><FaEnvelope /></a>
+                            <a href="https://wa.me/2348088626755" rel="noopener noreferrer" className="text-gray-400 hover:text-green-500 transition-colors text-2xl"><FaWhatsapp /></a>
                         </div>
                     </div>
 

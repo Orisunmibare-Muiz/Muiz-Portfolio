@@ -3,7 +3,7 @@ import React from 'react'
 export default function ExperimentFutureSection() {
     return (
         <>
-            <section className="relative bg-linear-to-br from-[#0a192f] via-[#0f2747] to-[#0b1f38] text-white py-24 px-6 md:px-20 overflow-hidden">
+            <section className="relative bg-linear-to-br from-[#0a192f] via-[#0f2747] to-[#375983] text-white py-24 px-6 md:px-20 overflow-hidden">
 
                 {/* <!-- Subtle Background Glow --> */}
                 <div className="absolute top-0 right-0 w-96 h-96 bg-red-500/10 blur-3xl rounded-full"></div>
