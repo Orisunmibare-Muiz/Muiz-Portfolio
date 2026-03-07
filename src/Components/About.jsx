@@ -62,7 +62,7 @@ export default function About() {
     return (
         <>
             {/* // pt-20 gives it that nice breathing room at the top */}
-            <section smooth id='about' className="bg-[#ffffff] text-gray-900 py-20 px-6 md:px-12 lg:px-24">
+            <section smooth="true" id='about' className="bg-[#ffffff] text-gray-900 py-20 px-6 md:px-12 lg:px-24">
                 <div className="max-w-7xl mx-auto">
 
                     {/* Main Heading */}
