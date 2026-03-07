@@ -9,10 +9,10 @@ export default function Nav() {
     return (
         <>
             <nav className="fixed top-0 left-0 w-full z-50 bg-dark/80 backdrop-blur border-b border-white/10">
-                <div className="max-w-7xl mx-auto px-6 md:px-20 h-16 flex items-center justify-between">
+                <div className="max-w-7xl mx-auto px-6 md:px-0 h-16 flex items-center justify-between">
 
                     {/* LOGO */}
-                    <div className="flex items-center gap-2 text-white font-bold text-lg">
+                    <div className=" text-white font-bold text-lg">
                         <span className="w-3 h-3 bg-primary rounded-sm" />
                         MyPortfolio
                     </div>

@@ -11,7 +11,7 @@ export default function Footer() {
     return (
         <>
             <footer className="bg-conic-180 from-[#0a192f] via-[#0a192f] to-[#0a192f] text-gray-300 px-6 py-12">
-                <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-10">
+                <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10">
 
                     {/* Identity */}
                     <div>
@@ -95,7 +95,7 @@ export default function Footer() {
                 </div>
 
                 {/* Bottom Section */}
-                <div className="border-t border-gray-800 mt-10 pt-6 flex justify-between items-center max-w-6xl mx-auto">
+                <div className="border-t border-gray-800 mt-10 pt-6 flex justify-between items-center max-w-7xl mx-auto">
 
                     <p className="text-sm text-gray-500">
                         © {new Date().getFullYear()} Orisunmibare Muiz Olamilekan. All rights reserved.

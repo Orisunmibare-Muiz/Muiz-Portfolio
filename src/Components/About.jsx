@@ -2,7 +2,8 @@ import React from 'react'
 import Hero from "/Images/Hero.jpg"
 import Hero1 from "/Images/Hero1.jpg"
 import Hero4 from "/Images/Hero4.jpg"
-import myPic from "/Images/my-pic.jpg"
+// import myPic from "/Images/my-pic.jpg"
+import mySecPic from "/Images/Orisunmibare-Muiz.jpeg"
 
 import {
     FaReact,
@@ -60,7 +61,7 @@ export default function About() {
 
     return (
         <>
-            {/* // pt-20 gives it that nice breathing room at the top we talked about earlier */}
+            {/* // pt-20 gives it that nice breathing room at the top */}
             <section smooth id='about' className="bg-[#ffffff] text-gray-900 py-20 px-6 md:px-12 lg:px-24">
                 <div className="max-w-7xl mx-auto">
 
@@ -76,7 +77,7 @@ export default function About() {
                         {/* Left: Professional Image */}
                         <div className="w-full lg:w-1/2">
                             <img
-                                src={myPic}
+                                src={mySecPic}
                                 alt="Developer working at desk"
                                 className="w-full h-150 rounded-2xl shadow-lg object-cover aspect-square"
                             />

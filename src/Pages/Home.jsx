@@ -4,6 +4,7 @@ import HeroSection from '../Components/HeroSection'
 import About from '../Components/About'
 import ExperimentFutureSection from '../Components/ExperimentFutureSection'
 import Footer from '../Components/Shared Components/Footer'
+// import CaseCard from '../Components/CaseCard'
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
             <HeroSection />
             <About />
             <ExperimentFutureSection />
+            {/* <CaseCard /> */}
             <Footer />
         </div>
     )

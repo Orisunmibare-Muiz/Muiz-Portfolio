@@ -11,7 +11,7 @@ export default function ExperimentFutureSection() {
                 <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
                     {/* <!-- LEFT CONTENT --> */}
-                    <div>
+                    <div className='max-w-7xl'>
                         <h2 className="text-4xl md:text-5xl font-bold leading-tight">
                             Exploring the Future of Web
                             <span className="text-red-500">Development</span>
@@ -45,7 +45,7 @@ export default function ExperimentFutureSection() {
                     </div>
 
                     {/* <!-- RIGHT VISUAL --> */}
-                    <div className="relative flex justify-center">
+                    <div className="relative flex justify-center max-w-7xl">
 
                         {/* <!-- Glass Card --> */}
                         <div className="relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-10 w-full max-w-md shadow-2xl">

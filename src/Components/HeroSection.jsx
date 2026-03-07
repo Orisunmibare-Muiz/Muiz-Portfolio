@@ -7,12 +7,12 @@ import Hero5 from "/Images/Hero5.jpg"
 export default function HeroSection() {
     return (
         <>
-            <section className="min-h-screen bg-hero md:bg-center bg-no-repeat bg-cover text-white flex items-center px-6 md:px-20 md:bg-none" style={{
+            <section className="min-h-screen bg-hero md:bg-center bg-no-repeat bg-cover text-white flex items-center px-6 md:px-38 md:bg-none" style={{
                 backgroundImage: `url(${Hero1})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
             }}>
-                <div className="max-w-4xl space-y-6">
+                <div className="max-w-4xl space-y-6 ">
                     <h1 className="text-4xl md:text-8xl font-bold leading-tight">
                         Innovative{" "} <br />
                         <span className="text-red-600">Frontend</span>{" "} <br />
