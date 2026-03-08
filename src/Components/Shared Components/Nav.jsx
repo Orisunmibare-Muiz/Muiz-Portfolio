@@ -20,10 +20,10 @@ export default function Nav() {
                     {/* DESKTOP LINKS */}
                     <ul className="hidden md:flex items-center gap-8 text-sm text-gray-300">
                         <Link to="/" className="hover:text-white transition cursor-pointer">Home</Link>
-                        <Link to="/" className="hover:text-white transition cursor-pointer">Case Studies</Link>
-                        <Link to="/" className="hover:text-primary transition cursor-pointer">Skills</Link>
-                        <HashLink to="#about"> About </HashLink>
-                        <Link to="/" className="hover:text-white transition cursor-pointer">Contact</Link>
+                        <HashLink to="#case-studies" className="hover:text-white transition cursor-pointer">Case Studies</HashLink>
+                        <HashLink to="#project" className="hover:text-primary transition cursor-pointer">Project</HashLink>
+                        <HashLink to="#about" className="hover:text-white transition cursor-pointer">About</HashLink>
+                        <HashLink to="#contact" className="hover:text-white transition cursor-pointer">Contact</HashLink>
                     </ul>
 
                     {/* CTA - Call to action */}
@@ -44,10 +44,10 @@ export default function Nav() {
                 {open && (
                     <div className="md:hidden bg-dark border-t border-white/10 px-6 py-6 space-y-4 text-gray-300">
                         <Link to="/" onClick={() => setOpen(false)} className="hover:text-white">Home</Link>
-                        <Link to="/" onClick={() => setOpen(false)} className="hover:text-white">Case Studies</Link>
-                        <Link to="/" onClick={() => setOpen(false)} className="hover:text-primary">Skills</Link>
-                        <Link to="/about" onClick={() => setOpen(false)} className="hover:text-white">About</Link>
-                        <Link to="/" onClick={() => setOpen(false)} className="hover:text-white">Contact</Link>
+                        <HashLink to="#case-studies" onClick={() => setOpen(false)} className="hover:text-white">Case Studies</HashLink>
+                        <HashLink to="#project" onClick={() => setOpen(false)} className="hover:text-primary">Project</HashLink>
+                        <HashLink to="#about" onClick={() => setOpen(false)} className="hover:text-white">About</HashLink>
+                        <HashLink to="#contact" onClick={() => setOpen(false)} className="hover:text-white">Contact</HashLink>
 
                         <button className="w-full bg-accent py-2 rounded-md text-white font-semibold mt-4">
                             Hire Me

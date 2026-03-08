@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from '../Components/Shared Components/Nav'
 import HeroSection from '../Components/HeroSection'
 import About from '../Components/About'
-import ExperimentFutureSection from '../Components/ExperimentFutureSection'
+import CaseStudy from '../Components/CaseStudy'
 import Footer from '../Components/Shared Components/Footer'
 import CaseCard from '../Components/CaseCard'
 
@@ -12,7 +12,7 @@ export default function Home() {
             <Nav />
             <HeroSection />
             <About />
-            <ExperimentFutureSection />
+            <CaseStudy />
             <CaseCard />
             <Footer />
         </div>

@@ -103,9 +103,9 @@ export default function Footer() {
 
                     <button
                         onClick={scrollToTop}
-                        className="bg-gray-800 p-3 rounded-full hover:bg-gray-700 transition"
+                        className="bg-red-600 p-3 rounded-full hover:bg-red-700 transition"
                     >
-                        <FaArrowUp />
+                        <FaArrowUp className='w-7 h-7' />
                     </button>
 
                 </div>
