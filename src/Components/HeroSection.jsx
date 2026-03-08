@@ -7,7 +7,7 @@ import Hero5 from "/Images/Hero5.jpg"
 export default function HeroSection() {
     return (
         <>
-            <section className="min-h-screen bg-hero md:bg-center bg-no-repeat bg-cover text-white flex items-center px-6 md:px-38 md:bg-none" style={{
+            <section id='' className="min-h-screen bg-hero md:bg-center bg-no-repeat bg-cover text-white flex items-center px-6 md:px-38 md:bg-none" style={{
                 backgroundImage: `url(${Hero1})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
