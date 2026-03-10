@@ -29,6 +29,6 @@ Always open to talking about tech, startups, or market trends.
 
 LinkedIn: linkedin.com/in/muiz-orisunmibare-b397892a8
 
-Portfolio: 
+Portfolio: muiz-portfolio-liart.vercel.app
 
 "The ability to just be a coder is no longer impressive. The point is, what problem can you solve technically?"
