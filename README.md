@@ -1,5 +1,5 @@
 # Hello, I'm Orisunmibare Muiz
-# A Developer | Problem Solver
+## A Developer | Problem Solver
 
 Welcome to my digital workspace. In today's tech landscape, the real flex isn't just having a screen full of scripts—it's knowing how to solve actual technical problems. I don't just write code; I approach development with a CEO mindset to build solutions that matter and drive results.
 
