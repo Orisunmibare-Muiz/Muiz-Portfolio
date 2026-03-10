@@ -1,16 +1,34 @@
-# React + Vite
+# Hello, I'm Orisunmibare Muiz
+# A Developer | Problem Solver
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my digital workspace. In today's tech landscape, the real flex isn't just having a screen full of scripts—it's knowing how to solve actual technical problems. I don't just write code; I approach development with a CEO mindset to build solutions that matter and drive results.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+What I'm About
+Building, not just typing: I focus on increasing efficiency, hitting client deadlines, and shipping products that make an impact.
 
-## React Compiler
+Current Obsession: Deep-diving into the React ecosystem to craft seamless, dynamic user interfaces.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+In the Lab: Currently building out a full-scale e-commerce website to push my architecture and problem-solving skills to the next level.
 
-## Expanding the ESLint configuration
+Off the Keyboard: When I'm not debugging or architecting apps, you can probably catch me analyzing the markets and day trading.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## The Arsenal
+Full Stck Developer
+
+Frontend: React, JavaScript, HTML5, CSS3, Tailwind
+
+Tools & Mindset: Git, GitHub, Development, Fast Execution
+
+Mindset: Problem-solving, Fast Execution, Product-Led Architecture
+
+## Let's Connect
+
+Let's Connect
+Always open to talking about tech, startups, or market trends.
+
+LinkedIn: linkedin.com/in/muiz-orisunmibare-b397892a8
+
+Portfolio: 
+
+"The ability to just be a coder is no longer impressive. The point is, what problem can you solve technically?"
