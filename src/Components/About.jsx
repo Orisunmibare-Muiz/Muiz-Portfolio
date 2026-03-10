@@ -88,7 +88,7 @@ export default function About() {
                             <div>
                                 <h3 className="text-sm font-bold text-gray-400 tracking-widest uppercase mb-3">My Journey</h3>
                                 <p className="text-gray-700 leading-relaxed mb-4">
-                                    I am a frontend developer driven by curiosity and precision. I enjoy crafting interfaces where clean design meets solid engineering—turning complex ideas into fast, intuitive, and scalable digital products.
+                                    <strong> My name is Orisunmibare Muiz</strong>. I am a frontend developer driven by curiosity and precision. I enjoy crafting interfaces where clean design meets solid engineering—turning complex ideas into fast, intuitive, and scalable digital products.
                                 </p>
                             </div>
                             <div>

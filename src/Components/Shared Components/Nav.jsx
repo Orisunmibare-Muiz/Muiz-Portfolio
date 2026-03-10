@@ -5,6 +5,10 @@ import { useState } from 'react';
 
 export default function Nav() {
     const [open, setOpen] = useState(false);
+    const topReload = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" }); // 📝format - window.scrollTo({ horizontal(x), vertical(y) })
+        window.location.href = "/"; // 📝format - window.location.href = "url"
+    }
 
     return (
         <>
@@ -12,7 +16,7 @@ export default function Nav() {
                 <div className="max-w-7xl mx-auto px-6 md:px-0 h-16 flex items-center justify-between">
 
                     {/* LOGO */}
-                    <div className=" text-white font-bold text-lg">
+                    <div onClick={topReload} className=" text-white font-bold text-lg cursor-pointer">
                         <span className="w-3 h-3 bg-primary rounded-sm" />
                         MyPortfolio
                     </div>
@@ -23,7 +27,7 @@ export default function Nav() {
                         <HashLink to="#case-studies" className="hover:text-white transition cursor-pointer">Case Studies</HashLink>
                         <HashLink to="#project" className="hover:text-primary transition cursor-pointer">Project</HashLink>
                         <HashLink to="#about" className="hover:text-white transition cursor-pointer">About</HashLink>
-                        <HashLink to="#contact" className="hover:text-white transition cursor-pointer">Contact</HashLink>
+                        <HashLink to="/contact" className="hover:text-white transition cursor-pointer">Contact</HashLink>
                     </ul>
 
                     {/* CTA - Call to action */}

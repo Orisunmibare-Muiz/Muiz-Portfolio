@@ -9,7 +9,7 @@ export default function Footer() {
     };
 
     return (
-        <>
+        <> 
             <footer className="bg-conic-180 from-[#0a192f] via-[#0a192f] to-[#0a192f] text-gray-300 px-6 py-12">
                 <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10">
 
@@ -18,7 +18,7 @@ export default function Footer() {
                         <h2 className="text-xl font-semibold text-white">
                             Orisunmibare Muiz Olamilekan
                         </h2>
-                        <p className="mt-2 text-sm text-gray-400">  
+                        <p className="mt-2 text-sm text-gray-400">
                             Frontend Developer building modern, responsive, and user-focused web experiences.
                         </p>
 

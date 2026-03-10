@@ -1,6 +1,7 @@
 import React from 'react'
-import Hero from "/Images/Hero.jpg"
+import { HashLink } from 'react-router-hash-link'
 import Hero1 from "/Images/Hero1.jpg"
+import Hero from "/Images/Hero.jpg"
 import Hero4 from "/Images/Hero4.jpg"
 import Hero5 from "/Images/Hero5.jpg"
 
@@ -25,10 +26,10 @@ export default function HeroSection() {
                     </p>
 
                     <div className="flex gap-4">
-                        <button className="bg-primary px-6 py-3 rounded-md font-semibold hover:bg-blue-700 transition">
-                            View My Work
-                        </button>
-                        <button className="border border-accent text-accent px-6 py-3 rounded-md hover:bg-accent hover:text-white transition">
+                        <HashLink to="#project" className="bg-primary px-6 py-3 rounded-md font-semibold hover:bg-blue-700 transition cursor-pointer">
+                                View My Work
+                        </HashLink>
+                        <button className="border border-accent text-accent px-6 py-3 rounded-md hover:bg-accent hover:text-white transition cursor-pointer">
                             Let’s Work Together
                         </button>
                     </div>

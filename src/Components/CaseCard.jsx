@@ -56,9 +56,9 @@ const Card = ({ props }) => {
 export default function CaseCard() {
     return (
         <>
-            <div id='#project' className='md:py-20'>
+            <div id='project' className='md:py-20'>
                 <h2 className='text-4xl md:text-5xl font-bold leading-tight text-center mb-12'>
-                    RESULT SHOWCASE / <span className='text-red-600'>IMPACT STORIES</span> / CASE STUDIES
+                    RESULT SHOWCASE / <span className='text-red-600'>IMPACT STORIES</span>
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 p-6">
                     {CaseCardData.map((props, index) => (
